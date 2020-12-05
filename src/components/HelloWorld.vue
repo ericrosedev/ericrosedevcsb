@@ -1,12 +1,19 @@
 <template>
   <div class="hello">
-    <p>github test</p>
+    <p>imagery test continued</p>
+    <InlineSvg class="inlinesvg" />
+    <img src="../images/ExternalPng.png" alt="" class="externalpng" />
   </div>
 </template>
 
 <script>
+import InlineSvg from "../components/svg/InlineSvg";
+
 export default {
   name: "HelloWorld",
+  components: {
+    InlineSvg,
+  },
   props: {
     msg: String,
   },
@@ -15,18 +22,18 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h3 {
-  margin: 40px 0 0;
+.hello {
+  background: url("ExternalSvg.svg") no-repeat left;
+  background-size: 100px 100px;
 }
-ul {
-  list-style-type: none;
-  padding: 0;
+.inlinesvg {
+  width: 100px;
 }
-li {
-  display: inline-block;
-  margin: 0 10px;
+.externalsvg {
+  width: 100px;
+  height: 80px;
 }
-a {
-  color: #42b983;
+.externalpng {
+  width: 100px;
 }
 </style>
