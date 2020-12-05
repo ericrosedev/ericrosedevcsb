@@ -23,7 +23,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .hello {
-  background: url("ExternalSvg.svg") no-repeat left;
+  background: url("https://twxuu.csb.app/ExternalSvg.svg") no-repeat left;
   background-size: 100px 100px;
 }
 .inlinesvg {
