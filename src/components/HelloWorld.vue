@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <p>imagery test continued</p>
+    <p>imagery test</p>
     <InlineSvg class="inlinesvg" />
     <img src="../images/ExternalPng.png" alt="" class="externalpng" />
   </div>
