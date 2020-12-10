@@ -3,7 +3,7 @@
     <div class="intro">
       <h1>Hi, I'm Eric 💁🏻‍♂️</h1>
 
-      <p>I’m a web designer and developer.</p>
+      <p class="leader">I’m a web designer and developer.</p>
 
       <p>I like building things for the internet that people can enjoy.</p>
 
@@ -181,7 +181,7 @@
       </section>
 
       <section>
-        <h3>Graphics</h3>
+        <h3>Graphic Design</h3>
         <ul>
           <li>
             <img src="https://twxuu.csb.app/photoshop.svg" alt="" /> Photoshop
@@ -190,16 +190,6 @@
             <img src="https://twxuu.csb.app/illustrator.svg" alt="" />
             Illustrator
           </li>
-        </ul>
-      </section>
-
-      <section>
-        <h3>Compression</h3>
-        <ul>
-          <li>
-            <img src="https://twxuu.csb.app/tinypng.svg" alt="" /> TinyPNG
-          </li>
-          <li><img src="https://twxuu.csb.app/svgomg.svg" alt="" /> SVGOMG</li>
         </ul>
       </section>
 
@@ -314,6 +304,16 @@
       </section>
 
       <section>
+        <h3>Compression</h3>
+        <ul>
+          <li>
+            <img src="https://twxuu.csb.app/tinypng.svg" alt="" /> TinyPNG
+          </li>
+          <li><img src="https://twxuu.csb.app/svgomg.svg" alt="" /> SVGOMG</li>
+        </ul>
+      </section>
+
+      <section>
         <h3>Misc</h3>
         <ul>
           <li>
@@ -357,7 +357,7 @@
     </div>
 
     <footer>
-      Copyright ©2020 Eric Rose <br />
+      Copyright ©{{ new Date().getFullYear() }} Eric Rose <br />
       <a href="mailto:eric@ericrose.dev">eric@ericrose.dev</a>
     </footer>
   </div>
@@ -399,7 +399,7 @@ export default {
     }
   }
   h2 {
-    padding: 1.5rem 3rem 2rem;
+    padding: 2rem 3rem 2rem;
     text-align: center;
 
     /* tablet */
@@ -410,9 +410,11 @@ export default {
   }
   h3 {
     text-align: center;
+    font-size: 0.8rem;
 
     @media (min-width: 768px) {
       padding: 2rem 0 2rem 3rem;
+      font-size: 1rem;
     }
   }
   p,
@@ -423,14 +425,8 @@ export default {
 
     /* tablet */
     @media (min-width: 768px) {
-      font-size: 1.35rem;
-      line-height: 2.25rem;
-    }
-
-    /* desktop */
-    @media (min-width: 1200px) {
-      font-size: 1.35rem;
-      line-height: 2.25rem;
+      font-size: 1.2rem;
+      line-height: 1.75rem;
     }
   }
   a {
@@ -526,8 +522,24 @@ export default {
   .intro {
     padding: 1rem 1rem 0 1rem;
 
-    p {
+    .leader {
+      font-size: 1.25rem;
+      margin: 0;
+      padding-bottom: 1.5rem;
+
+      /* tablet */
+      @media (min-width: 768px) {
+        font-size: 1.35rem;
+        line-height: 2.25rem;
+      }
+    }
+
+    p:nth-child(3) {
       margin-top: 0;
+    }
+
+    p:last-of-type {
+      margin-bottom: 0;
     }
 
     /* tablet */
@@ -569,9 +581,19 @@ export default {
     section {
       margin-bottom: 3rem;
     }
+  }
+  .methods {
+    margin-bottom: 1.5rem;
 
-    h3 {
-      font-size: 1rem;
+    ul {
+      justify-content: center;
+    }
+    li {
+      padding: 0 1rem 1rem;
+
+      @media (min-width: 768px) {
+        padding: 0 2rem 0;
+      }
     }
   }
   .icon {
