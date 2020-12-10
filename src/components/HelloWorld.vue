@@ -18,8 +18,11 @@
         <a href="http://www.thehugoawards.org/" target="_blank">📚</a> and short
         stories <a href="https://www.asimovs.com/" target="_blank">📘</a>
         <a href="https://www.analogsf.com/" target="_blank">📕</a> , running
-        <a href="https://www.nike.com/nrc-app" target="_blank">🏃‍♂️</a>, and
-        taking miss Dakota 🐕 to the dog park.
+        <a href="https://www.nike.com/nrc-app" target="_blank">🏃‍♂️</a>, 
+        maps <a href="https://www.reddit.com/r/MapPorn/" target="_blank">🗺️</a>,
+        boats <a v-on:click="showBoatModal" href="#">🛥️</a>, 
+        coffee <a href="https://www.traderjoes.com/digin/tag/Coffee/" target="_blank">☕</a>, 
+        and taking miss Dakota <a v-on:click="showDogModal" href="#">🐕</a> to the dog park.
       </p>
     </div>
 
@@ -356,6 +359,24 @@
       </section>
     </div>
 
+    <transition name="fade">
+      <div v-show="showBoat" class="modal">
+        <div class="modal-body">
+          <img class="modal-close" v-on:click="showBoatModal" src="https://twxuu.csb.app/close.svg" alt="close" />
+          <img class="modal-img" src="https://twxuu.csb.app/boat.jpg" alt="" />
+        </div>
+      </div>
+    </transition>
+
+    <transition name="fade">
+      <div v-show="showDog" class="modal">
+        <div class="modal-body">
+          <img class="modal-close" v-on:click="showDogModal"  src="https://twxuu.csb.app/close.svg" alt="close" />
+          <img class="modal-img" src="https://twxuu.csb.app/dog.png" alt="" />
+        </div>
+      </div>
+    </transition>
+
     <footer>
       Copyright ©{{ new Date().getFullYear() }} Eric Rose <br />
       <a href="mailto:eric@ericrose.dev">eric@ericrose.dev</a>
@@ -366,6 +387,24 @@
 <script>
 export default {
   name: "HelloWorld",
+  data: function () {
+    return {
+      showBoat: false,
+      showDog: false
+    }
+  },
+  methods: {
+    showBoatModal: function (event) {
+      if (event) {
+        this.showBoat = !this.showBoat;
+      }
+    },
+    showDogModal: function (event) {
+      if (event) {
+        this.showDog = !this.showDog;
+      }
+    }
+  }
 };
 </script>
 
@@ -477,10 +516,6 @@ export default {
         width: 80px;
         height: 72px;
       }
-
-      /* desktop */
-      @media (min-width: 1200px) {
-      }
     }
 
     .animated-gif {
@@ -512,6 +547,22 @@ export default {
   img {
     width: 80px;
     height: 72px;
+  }
+  section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    h3 {
+      /* position: absolute;
+      top: 0;
+      left: 0; */
+      margin: 0;
+      padding: 0;
+    }
   }
   .intro {
     padding: 1rem 1rem 0 1rem;
@@ -593,20 +644,42 @@ export default {
   .icon {
     width: 3rem;
   }
-  section {
+  .modal {
+    position: fixed;
     display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
-    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    &-body {
+      position: relative;
+    }
+    &-close {
+      position: absolute;
+      width: 1.5rem;
+      height: 1.5rem;
+      top: -2rem;
+      right: 1rem;
+      opacity: 1;
 
-    h3 {
-      /* position: absolute;
-      top: 0;
-      left: 0; */
-      margin: 0;
-      padding: 0;
+      @media (min-width: 370px) {
+        top: 1rem;
+        opacity: 0.5;
+      }
+      @media (min-width: 640px) {
+        width: 3rem;
+        height: 3rem;
+      }
+    }
+    &-img {
+      width: 100%;
+      height: 100%;
+      max-width: 640px;
+      max-height: 484px;
+      border-radius: 1rem;
     }
   }
   footer {
@@ -650,5 +723,11 @@ export default {
   to {
     transform: rotateY(360deg);
   }
+}
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .2s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
 }
 </style>
