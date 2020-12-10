@@ -50,7 +50,7 @@
             <div class="dflex-row">
               <img src="https://twxuu.csb.app/vector_anim_animated.svg" alt="" />
               <img
-                src="../images/raster_anim_animated.gif"
+                src="https://twxuu.csb.app/raster_anim_animated.gif"
                 alt=""
                 class="animated-gif"
               />
@@ -292,23 +292,7 @@ export default {
   // },
   props: {
     msg: String,
-  },
-  data() {
-    return {
-      scrolled: false,
-    };
-  },
-  created() {
-    window.addEventListener("scroll", this.handleScroll);
-  },
-  destroyed() {
-    window.removeEventListener("scroll", this.handleScroll);
-  },
-  methods: {
-    handleScroll(event) {
-      this.scrolled = true;
-    },
-  },
+  }
 };
 </script>
 
@@ -502,8 +486,6 @@ export default {
     h3 {
       font-size: 1rem;
     }
-  }
-  .methods {
   }
   .icon {
     width: 3rem;
