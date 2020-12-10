@@ -399,7 +399,7 @@ export default {
     }
   }
   h2 {
-    padding: 1rem 3rem 2rem;
+    padding: 1.5rem 3rem 2rem;
     text-align: center;
 
     /* tablet */
