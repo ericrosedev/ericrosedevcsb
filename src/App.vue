@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <!-- <img alt="png test" src="./assets/svg/test.png" width="25%" /> -->
-    <HelloWorld msg="Hello Vue in CodeSandbox!" />
+    <HelloWorld />
   </div>
 </template>
 
@@ -10,6 +10,17 @@ import HelloWorld from "./components/HelloWorld";
 
 export default {
   name: "App",
+  metaInfo: {
+    title: "ericrose.dev",
+    meta: [
+      { charset: "utf-8" },
+      {
+        name: "description",
+        content: "Stuff I do, tools I use, and methodologies I subscribe to",
+      },
+      { name: "viewport", content: "width=device-width, initial-scale=1" },
+    ],
+  },
   components: {
     HelloWorld,
   },
