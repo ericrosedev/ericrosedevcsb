@@ -128,7 +128,7 @@
               src="https://twxuu.csb.app/responsivedesign_animated.svg"
               alt=""
             />
-            Resonsive Layouts
+            Responsive Layouts
           </li>
           <li>
             <img src="https://twxuu.csb.app/rapidproto_animated.svg" alt="" />
