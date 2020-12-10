@@ -379,7 +379,10 @@
 
     <footer>
       Copyright ©{{ new Date().getFullYear() }} Eric Rose <br />
-      <a href="mailto:eric@ericrose.dev">eric@ericrose.dev</a>
+      <a href="mailto:eric@ericrose.dev">eric@ericrose.dev</a> <br />
+      <a href="https://github.com/ericrosedev/" target="_blank">Projects</a> |
+      <a href="https://erictrose.github.io/" target="_blank">Student Projects</a> |
+      <a href="https://ericrosedev.github.io" target="_blank">Blog</a>
     </footer>
   </div>
 </template>
@@ -689,6 +692,7 @@ export default {
     text-align: center;
     font-family: "Quicksand", sans-serif;
     color: #bdbdbd;
+    line-height: 1.5rem;
 
     a {
       color: #9e9e9e;
