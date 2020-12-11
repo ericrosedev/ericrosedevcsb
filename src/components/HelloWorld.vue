@@ -381,7 +381,6 @@
       Copyright ©{{ new Date().getFullYear() }} Eric Rose <br />
       <a href="mailto:eric@ericrose.dev">eric@ericrose.dev</a> <br />
       <a href="https://github.com/ericrosedev/" target="_blank">Projects</a> |
-      <a href="https://erictrose.github.io/" target="_blank">Student Projects</a> |
       <a href="https://ericrosedev.github.io" target="_blank">Blog</a>
     </footer>
   </div>
