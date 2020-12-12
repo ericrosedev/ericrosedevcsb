@@ -8,7 +8,7 @@
       <p>I like building things for the internet that people can enjoy.</p>
 
       <p>
-        I’ve been doing this full time since 2013, before that I was an
+        I’ve been doing this and project management full time since 2013, before that I was an
         intelligence analyst in the military and an intelligence instructor for
         the department of defense.
       </p>
