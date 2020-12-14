@@ -33,20 +33,20 @@
 
         <ul>
           <li style="position: relative">
-            <img src="https://twxuu.csb.app/lightbulb_animated.svg" alt="" />
+            <img src="https://twxuu.csb.app/lightbulb_animated.svg" alt="lightbulb" />
             Ideation
           </li>
           <li>
-            <img src="https://twxuu.csb.app/wireframe_animated.svg" alt="" />
+            <img src="https://twxuu.csb.app/wireframe_animated.svg" alt="wireframe" />
             Wireframing
           </li>
           <li>
-            <img src="https://twxuu.csb.app/mock_animated.svg" alt="" /> Mocking
+            <img src="https://twxuu.csb.app/mock_animated.svg" alt="mockup" /> Mocking
           </li>
           <li>
             <div>
-              <img src="https://twxuu.csb.app/vector.svg" alt="" />
-              <img src="https://twxuu.csb.app/raster.png" alt="" />
+              <img src="https://twxuu.csb.app/vector.svg" alt="vector" />
+              <img src="https://twxuu.csb.app/raster.png" alt="raster" />
             </div>
             Vector &amp; Raster <br />
             Design
@@ -55,11 +55,11 @@
             <div class="dflex-row">
               <img
                 src="https://twxuu.csb.app/vector_anim_animated.svg"
-                alt=""
+                alt="animated vector"
               />
               <img
                 src="https://twxuu.csb.app/raster_anim_animated.gif"
-                alt=""
+                alt="animated raster"
                 class="animated-gif"
               />
             </div>
@@ -67,18 +67,18 @@
             Animation
           </li>
           <li>
-            <img src="https://twxuu.csb.app/logo.svg" alt="" /> Logo Design
+            <img src="https://twxuu.csb.app/logo.svg" alt="logo design" /> Logo Design
           </li>
           <li>
-            <img src="https://twxuu.csb.app/emaildesign_animated.svg" alt="" />
+            <img src="https://twxuu.csb.app/emaildesign_animated.svg" alt="email design" />
             Email Design
           </li>
           <li>
-            <img src="https://twxuu.csb.app/videodesign_animated.svg" alt="" />
+            <img src="https://twxuu.csb.app/videodesign_animated.svg" alt="video design" />
             Video Design
           </li>
           <li>
-            <img src="https://twxuu.csb.app/generalui_animated.svg" alt="" />
+            <img src="https://twxuu.csb.app/generalui_animated.svg" alt="gnereal user experience" />
             General UX UI IXD
           </li>
         </ul>
@@ -88,19 +88,19 @@
         <h3>Development</h3>
 
         <ul>
-          <li><img src="https://twxuu.csb.app/html5.svg" alt="" /> HTML5</li>
+          <li><img src="https://twxuu.csb.app/html5.svg" alt="html5" /> HTML5</li>
           <li>
-            <img src="https://twxuu.csb.app/htmls.svg" alt="" /> Semantic Markup
+            <img src="https://twxuu.csb.app/htmls.svg" alt="semantic markup" /> Semantic Markup
           </li>
           <li>
-            <img src="https://twxuu.csb.app/htmli.svg" alt="" /> Templating
+            <img src="https://twxuu.csb.app/htmli.svg" alt="templating and interpolation" /> Templating
             &amp; Interpolation
           </li>
-          <li><img src="https://twxuu.csb.app/css3.svg" alt="" /> CSS3</li>
+          <li><img src="https://twxuu.csb.app/css3.svg" alt="css3" /> CSS3</li>
           <li>
             <div class="dflex-row">
-              <img src="https://twxuu.csb.app/cssf.svg" alt="" />
-              <img src="https://twxuu.csb.app/cssg.svg" alt="" />
+              <img src="https://twxuu.csb.app/cssf.svg" alt="css flexbox" />
+              <img src="https://twxuu.csb.app/cssg.svg" alt="css grid" />
             </div>
             Flexbox &amp; Grid <br />
             Based design
@@ -112,47 +112,47 @@
           </li>
           <li>
             <div class="spinme">
-              <img src="https://twxuu.csb.app/csstt_animated.svg" alt="" />
+              <img src="https://twxuu.csb.app/csstt_animated.svg" alt="css transforms, transitions, animations, and perspectives" />
             </div>
             Transforms, Transitions, <br />Animations, &amp; Perspectives
           </li>
-          <li><img src="https://twxuu.csb.app/es6.svg" alt="" /> ES6</li>
+          <li><img src="https://twxuu.csb.app/es6.svg" alt="ecmascript 6" /> ES6</li>
           <li>
             <div>
-              <img src="https://twxuu.csb.app/angular.svg" alt="" />
-              <img src="https://twxuu.csb.app/vue.svg" alt="" />
-              <img src="https://twxuu.csb.app/react.svg" alt="" />
+              <img src="https://twxuu.csb.app/angular.svg" alt="google angular" />
+              <img src="https://twxuu.csb.app/vue.svg" alt="vue" />
+              <img src="https://twxuu.csb.app/react.svg" alt="facebook react" />
             </div>
             Modern Frontend Frameworks
           </li>
-          <li><img src="https://twxuu.csb.app/node.svg" alt="" /> Node</li>
+          <li><img src="https://twxuu.csb.app/node.svg" alt="node" /> Node</li>
           <li>
             <img
               src="https://twxuu.csb.app/responsivedesign_animated.svg"
-              alt=""
+              alt="responsive design"
             />
             Responsive Layouts
           </li>
           <li>
-            <img src="https://twxuu.csb.app/rapidproto_animated.svg" alt="" />
+            <img src="https://twxuu.csb.app/rapidproto_animated.svg" alt="rapid prototyping" />
             Rapid Prototyping
           </li>
           <li>
             <img
               src="https://twxuu.csb.app/versioncontrol_animated.svg"
-              alt=""
+              alt="version control"
             />
             Version Control
           </li>
           <li>
-            <img src="https://twxuu.csb.app/cicd_animated.svg" alt="" /> CI/CD
+            <img src="https://twxuu.csb.app/cicd_animated.svg" alt="continuous integration and continuous deployment" /> CI/CD
           </li>
           <li>
-            <img src="https://twxuu.csb.app/emaildev_animated.svg" alt="" />
+            <img src="https://twxuu.csb.app/emaildev_animated.svg" alt="email development" />
             Email Development
           </li>
           <li>
-            <img src="https://twxuu.csb.app/videodev_animated.svg" alt="" />
+            <img src="https://twxuu.csb.app/videodev_animated.svg" alt="video development" />
             Video Development
           </li>
         </ul>
@@ -165,21 +165,21 @@
         <h3>Operating Systems</h3>
         <ul>
           <li>
-            <img src="https://twxuu.csb.app/windows.svg" alt="" /> Windows
+            <img src="https://twxuu.csb.app/windows.svg" alt="windows" /> Windows
           </li>
-          <li><img src="https://twxuu.csb.app/apple.svg" alt="" /> Mac</li>
+          <li><img src="https://twxuu.csb.app/apple.svg" alt="apple" /> Mac</li>
         </ul>
       </section>
 
       <section>
         <h3>Browsers</h3>
         <ul>
-          <li><img src="https://twxuu.csb.app/chrome.svg" alt="" /> Chrome</li>
+          <li><img src="https://twxuu.csb.app/chrome.svg" alt="google chrome" /> Chrome</li>
           <li>
-            <img src="https://twxuu.csb.app/firefox.svg" alt="" /> FireFox
+            <img src="https://twxuu.csb.app/firefox.svg" alt="firefox" /> FireFox
           </li>
-          <li><img src="https://twxuu.csb.app/safari.svg" alt="" /> Safari</li>
-          <li><img src="https://twxuu.csb.app/edge.svg" alt="" /> Edge</li>
+          <li><img src="https://twxuu.csb.app/safari.svg" alt="safari" /> Safari</li>
+          <li><img src="https://twxuu.csb.app/edge.svg" alt="microsoft edge" /> Edge</li>
         </ul>
       </section>
 
@@ -187,10 +187,10 @@
         <h3>Graphic Design</h3>
         <ul>
           <li>
-            <img src="https://twxuu.csb.app/photoshop.svg" alt="" /> Photoshop
+            <img src="https://twxuu.csb.app/photoshop.svg" alt="adobe photoshop" /> Photoshop
           </li>
           <li>
-            <img src="https://twxuu.csb.app/illustrator.svg" alt="" />
+            <img src="https://twxuu.csb.app/illustrator.svg" alt="adobe illustrator" />
             Illustrator
           </li>
         </ul>
@@ -200,7 +200,7 @@
         <h3>Animation</h3>
         <ul>
           <li>
-            <img src="https://twxuu.csb.app/svgator.svg" alt="" /> SVGator
+            <img src="https://twxuu.csb.app/svgator.svg" alt="svgator" /> SVGator
           </li>
         </ul>
       </section>
@@ -209,13 +209,13 @@
         <h3>Prototyping</h3>
         <ul>
           <li>
-            <img src="https://twxuu.csb.app/xd.svg" alt="" /> Experience Design
+            <img src="https://twxuu.csb.app/xd.svg" alt="adobe experience design" /> Experience Design
           </li>
           <li>
-            <img src="https://twxuu.csb.app/codepen.svg" alt="" /> CodePen
+            <img src="https://twxuu.csb.app/codepen.svg" alt="codepen" /> CodePen
           </li>
           <li>
-            <img src="https://twxuu.csb.app/codesandbox.svg" alt="" />
+            <img src="https://twxuu.csb.app/codesandbox.svg" alt="codesandbox" />
             CodeSandbox
           </li>
         </ul>
@@ -225,7 +225,7 @@
         <h3>CSS Frameworks</h3>
         <ul>
           <li>
-            <img src="https://twxuu.csb.app/bootstrap.svg" alt="" /> Bootstrap
+            <img src="https://twxuu.csb.app/bootstrap.svg" alt="bootstrap" /> Bootstrap
           </li>
         </ul>
       </section>
@@ -234,7 +234,7 @@
         <h3>CSS Preprocessors</h3>
         <ul>
           <li>
-            <img src="https://twxuu.csb.app/sass.svg" alt="" /> SASS / SCSS
+            <img src="https://twxuu.csb.app/sass.svg" alt="sass and scss" /> SASS / SCSS
           </li>
         </ul>
       </section>
@@ -242,21 +242,21 @@
       <section>
         <h3>JS Frameworks</h3>
         <ul>
-          <li><img src="https://twxuu.csb.app/vue.svg" alt="" /> Vue</li>
+          <li><img src="https://twxuu.csb.app/vue.svg" alt="vue" /> Vue</li>
         </ul>
       </section>
 
       <section>
         <h3>3D Frameworks</h3>
         <ul>
-          <li><img src="https://twxuu.csb.app/three.svg" alt="" /> ThreeJS</li>
+          <li><img src="https://twxuu.csb.app/three.svg" alt="three js" /> ThreeJS</li>
         </ul>
       </section>
 
       <section>
         <h3>Old School</h3>
         <ul>
-          <li><img src="https://twxuu.csb.app/jquery.svg" alt="" /> jQuery</li>
+          <li><img src="https://twxuu.csb.app/jquery.svg" alt="jquery" /> jQuery</li>
         </ul>
       </section>
 
@@ -264,7 +264,7 @@
         <h3>Server Frameworks</h3>
         <ul>
           <li>
-            <img src="https://twxuu.csb.app/node.svg" alt="" /> Node / Express
+            <img src="https://twxuu.csb.app/node.svg" alt="node and express" /> Node / Express
           </li>
         </ul>
       </section>
@@ -272,9 +272,9 @@
       <section>
         <h3>IDEs</h3>
         <ul>
-          <li><img src="https://twxuu.csb.app/vscode.svg" alt="" /> VS Code</li>
+          <li><img src="https://twxuu.csb.app/vscode.svg" alt="microsoft vs code" /> VS Code</li>
           <li>
-            <img src="https://twxuu.csb.app/brackets.svg" alt="" /> Brackets
+            <img src="https://twxuu.csb.app/brackets.svg" alt="adobe brackets" /> Brackets
           </li>
         </ul>
       </section>
@@ -282,7 +282,7 @@
       <section>
         <h3>Email Development</h3>
         <ul>
-          <li><img src="https://twxuu.csb.app/mjml.svg" alt="" /> MJML</li>
+          <li><img src="https://twxuu.csb.app/mjml.svg" alt="mailjet markup language" /> MJML</li>
         </ul>
       </section>
 
@@ -290,11 +290,11 @@
         <h3>Video Creation</h3>
         <ul>
           <li>
-            <img src="https://twxuu.csb.app/aftereffects.svg" alt="" /> After
+            <img src="https://twxuu.csb.app/aftereffects.svg" alt="adobe after effects" /> After
             Effects
           </li>
           <li>
-            <img src="https://twxuu.csb.app/premiere.svg" alt="" /> Premiere
+            <img src="https://twxuu.csb.app/premiere.svg" alt="adobe premiere" /> Premiere
           </li>
         </ul>
       </section>
@@ -302,7 +302,7 @@
       <section>
         <h3>3D Modeling</h3>
         <ul>
-          <li><img src="https://twxuu.csb.app/maya.svg" alt="" /> Maya</li>
+          <li><img src="https://twxuu.csb.app/maya.svg" alt="autodesk maya" /> Maya</li>
         </ul>
       </section>
 
@@ -310,9 +310,9 @@
         <h3>Compression</h3>
         <ul>
           <li>
-            <img src="https://twxuu.csb.app/tinypng.svg" alt="" /> TinyPNG
+            <img src="https://twxuu.csb.app/tinypng.svg" alt="tinypng" /> TinyPNG
           </li>
-          <li><img src="https://twxuu.csb.app/svgomg.svg" alt="" /> SVGOMG</li>
+          <li><img src="https://twxuu.csb.app/svgomg.svg" alt="svgomg" /> SVGOMG</li>
         </ul>
       </section>
 
@@ -320,11 +320,11 @@
         <h3>Misc</h3>
         <ul>
           <li>
-            <img src="https://twxuu.csb.app/fontawesome.svg" alt="" />
+            <img src="https://twxuu.csb.app/fontawesome.svg" alt="font awesome" />
             FontAwesome
           </li>
           <li>
-            <img src="https://twxuu.csb.app/responsively.svg" alt="" />
+            <img src="https://twxuu.csb.app/responsively.svg" alt="responsively" />
             Responsively
           </li>
         </ul>
@@ -336,23 +336,23 @@
       <section>
         <ul>
           <li>
-            <img src="https://twxuu.csb.app/agile.svg" alt="" /> Agile
+            <img src="https://twxuu.csb.app/agile.svg" alt="agile development" /> Agile
             Development
           </li>
           <li>
-            <img src="https://twxuu.csb.app/mobile.svg" alt="" /> Mobile
+            <img src="https://twxuu.csb.app/mobile.svg" alt="mobile conscious design" /> Mobile
             Conscious Design
           </li>
           <li>
-            <img src="https://twxuu.csb.app/usability.svg" alt="" /> Usability
+            <img src="https://twxuu.csb.app/usability.svg" alt="usability" /> Usability
             Testing
           </li>
           <li>
-            <img src="https://twxuu.csb.app/udd.svg" alt="" /> User driven
+            <img src="https://twxuu.csb.app/udd.svg" alt="user driven design" /> User driven
             design
           </li>
           <li>
-            <img src="https://twxuu.csb.app/wlb.svg" alt="" /> Work / Life
+            <img src="https://twxuu.csb.app/wlb.svg" alt="work life balance" /> Work / Life
             Balance
           </li>
         </ul>
@@ -363,7 +363,7 @@
       <div v-show="showBoat" class="modal">
         <div class="modal-body">
           <img class="modal-close" v-on:click="showBoatModal" src="https://twxuu.csb.app/close.svg" alt="close" />
-          <img class="modal-img" src="https://twxuu.csb.app/boat.jpg" alt="" />
+          <img class="modal-img" src="https://twxuu.csb.app/boat.jpg" alt="I should buy a boat" />
         </div>
       </div>
     </transition>
@@ -372,7 +372,7 @@
       <div v-show="showDog" class="modal">
         <div class="modal-body">
           <img class="modal-close" v-on:click="showDogModal"  src="https://twxuu.csb.app/close.svg" alt="close" />
-          <img class="modal-img" src="https://twxuu.csb.app/dog.png" alt="" />
+          <img class="modal-img" src="https://twxuu.csb.app/dog.png" alt="my dog dakota" />
         </div>
       </div>
     </transition>
