@@ -331,7 +331,7 @@
       </section>
     </div>
 
-    <h2>Methodologies I subscribe to</h2>
+    <h2>Ideas I subscribe to</h2>
     <div class="area methods">
       <section>
         <ul>
