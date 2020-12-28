@@ -116,7 +116,7 @@
             </div>
             Transforms, Transitions, <br />Animations, &amp; Perspectives
           </li>
-          <li><img src="https://twxuu.csb.app/es6.svg" alt="ecmascript 6" /> ES6</li>
+          <li><img src="https://twxuu.csb.app/js.svg" alt="ecmascript 6" /> JS</li>
           <li>
             <div>
               <img src="https://twxuu.csb.app/angular.svg" alt="google angular" />
