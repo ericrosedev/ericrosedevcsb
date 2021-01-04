@@ -381,6 +381,7 @@
       Copyright ©{{ new Date().getFullYear() }} Eric Rose <br />
       <a href="mailto:eric@ericrose.dev">eric@ericrose.dev</a> <br />
       <a href="https://github.com/ericrosedev/" target="_blank">Github</a> |
+      <a href="https://codepen.io/ericrosedev/" target="_blank">CodePen</a> |
       <a href="https://ericrosedev.github.io" target="_blank">Blog</a> <br />
       portfolio available upon request
     </footer>
