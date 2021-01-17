@@ -79,7 +79,7 @@
           </li>
           <li>
             <img src="https://twxuu.csb.app/generalui_animated.svg" alt="gnereal user experience" />
-            General UX UI IXD
+            General UX UI IXD Stuff
           </li>
         </ul>
       </section>
@@ -104,24 +104,19 @@
             </div>
             Flexbox &amp; Grid <br />
             Based design
-            <!-- <pre><code>function Panel(element, canClose, closeHandler) {
-                this.element = element;
-                this.canClose = canClose;
-                this.closeHandler = function () { if (closeHandler) closeHandler() };
-              }</code></pre> -->
           </li>
           <li>
             <div class="spinme">
               <img src="https://twxuu.csb.app/csstt_animated.svg" alt="css transforms, transitions, animations, and perspectives" />
             </div>
-            Transforms, Transitions, <br />Animations, &amp; Perspectives
+            Animation
           </li>
           <li><img src="https://twxuu.csb.app/js.svg" alt="ecmascript 6" /> JS</li>
           <li>
             <div>
-              <img src="https://twxuu.csb.app/angular.svg" alt="google angular" />
-              <img src="https://twxuu.csb.app/vue.svg" alt="vue" />
-              <img src="https://twxuu.csb.app/react.svg" alt="facebook react" />
+              <img src="https://twxuu.csb.app/angular.svg" alt="google angular" style="transform: scale(0.8) translateX(1rem);" />
+              <img src="https://twxuu.csb.app/vue.svg" alt="vue" style="transform: scale(1.2);" />
+              <img src="https://twxuu.csb.app/react.svg" alt="facebook react" style="transform: scale(0.8) translateX(-1rem);;" />
             </div>
             Modern Frontend Frameworks
           </li>
