@@ -327,30 +327,6 @@
             <img src="https://twxuu.csb.app/responsively.svg" alt="responsively" />
             Responsively
           </li>
-        </ul>
-      </section>
-    </div>
-
-    <h2>Ideas I subscribe to</h2>
-    <div class="area methods">
-      <section>
-        <ul>
-          <li>
-            <img src="https://twxuu.csb.app/agile.svg" alt="agile development" /> Agile
-            Development
-          </li>
-          <li>
-            <img src="https://twxuu.csb.app/mobile.svg" alt="mobile conscious design" /> Mobile
-            Conscious Design
-          </li>
-          <li>
-            <img src="https://twxuu.csb.app/usability.svg" alt="usability" /> Usability
-            Testing
-          </li>
-          <li>
-            <img src="https://twxuu.csb.app/udd.svg" alt="user driven design" /> User driven
-            design
-          </li>
           <li>
             <img src="https://twxuu.csb.app/wlb.svg" alt="work life balance" /> Work / Life
             Balance
@@ -380,8 +356,8 @@
     <footer>
       Copyright ©{{ new Date().getFullYear() }} Eric Rose <br />
       <a href="mailto:eric@ericrose.dev">eric@ericrose.dev</a> <br />
-      <a href="https://github.com/ericrosedev/" target="_blank">Github</a> |
       <a href="https://codepen.io/ericrosedev/" target="_blank">CodePen</a> |
+      <a href="https://github.com/ericrosedev/" target="_blank">Github</a> |
       <a href="https://ericrosedev.github.io" target="_blank">Blog</a> <br />
       portfolio available upon request
     </footer>
